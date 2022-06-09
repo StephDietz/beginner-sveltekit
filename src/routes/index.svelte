@@ -37,6 +37,8 @@
 <main>
 	<CollectionCard />
 	{#each products as product}
-		<GridTile {product} />
+		<div class="p-10">
+			<GridTile {product} />
+		</div>
 	{/each}
 </main>
